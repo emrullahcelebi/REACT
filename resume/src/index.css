@@ -62,3 +62,51 @@ border-radius: 3px;
       width: 100%;
   }
 }
+
+
+@media only screen and (max-width: 767px) {
+  .welcome {
+      padding: 60px !important;
+  }
+
+  .welcome .quote {
+      width: initial;
+  }
+
+  .facts .fact-item {
+      margin-bottom: 20px;
+  }
+
+  .resume .resume-item {
+      margin-top: 30px !important;
+  }
+
+  .blog .item .text {
+      margin-top: 25px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .main-content section {
+      padding: 60px 30px;
+  }
+}
+
+@media only screen and (max-height: 600px) {
+  .header .name {
+      margin: 15px 0;
+  }
+
+  .header .main-nav ul li {
+      padding-bottom: 10px;
+  }
+
+  .header .social-icons {
+      margin: 0 0 15px;
+  }
+
+  .header .copyright {
+      bottom: -18px;
+      position: relative;
+  }
+}

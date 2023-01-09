@@ -1,16 +1,12 @@
-.resume .top-item {
-    margin-top: 0 !important;
-}
-
 .resume .resume-item {
     background: #FFF;   
     margin-top: 30px;
     max-height: 140px;
     overflow: hidden;
 }
-.resume [class^="col-"]:first-child .resume-item{
-    margin-top: 0!important;
 
+.resume [class^="col-"]:first-child .resume-item  {
+    margin-top: 0 !important;
 }
 
 .resume .resume-item h2 {

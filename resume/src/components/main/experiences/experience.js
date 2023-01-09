@@ -1,12 +1,10 @@
 import React from "react";
 
-const Experience = ({ company, title, date, desc }) => {
+const Experience = ({company, title, date, desc }) => {
   return (
     <div className="top-item resume-item">
       <h2>{company}</h2>
-      <span>
-        {title} | {date}
-      </span>
+      <span>{title} | {date}</span>
       <p>{desc}</p>
     </div>
   );

@@ -1,0 +1,35 @@
+[
+    {
+        "type":"text",
+        "className":"form-control",
+        "name":"InputName",
+        "id":"InputName",
+        "placeholder":"Your Name",
+        "required":""
+    },
+    {
+        "type":"email",
+        "className":"form-control",
+        "name":"InputEmail",
+        "id":"InputEmail",
+        "placeholder":"Your Email",
+        "required":""
+    },
+    {
+        "type":"text",
+        "className":"form-control",
+        "name":"InputPhone",
+        "id":"InputPhone",
+        "placeholder":"Phone (optional)",
+        "required":""
+    },
+    {
+        "type":"text",
+        "className":"form-control",
+        "name":"InputSubject",
+        "id":"InputSubject",
+        "placeholder":"Subject",
+        "required":""
+    }
+    
+]
