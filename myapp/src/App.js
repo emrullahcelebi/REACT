@@ -17,6 +17,11 @@ import Gallery from "./components/09-image/gallery";
 
 import Image from "./components/09-image/image";
 import ProfileCard from "./components/10-profile-card/profile-card";
+import BootstrapDynamic from "./components/11-bootstrap/bootstrap-dynamic";
+import BootstrapStatic from "./components/11-bootstrap/bootstrap-static";
+import Icon from "./components/12-icons/icon";
+import Events from "./components/13-events/events";
+import Shop from "./components/14-products/shop";
 
 const App = () => {
   return (
@@ -39,9 +44,17 @@ const App = () => {
         <Clock2 textColor="#56ff33" bgColor="#0012C3"/>
         <Gallery/>
          <Image/>  
+         <ProfileCard avatar="profile.jpg" name="Ali Gel" location="Turkey, Istanbul" shot="3" followers="23432" following="234"/>   
+<BootstrapStatic/>
+<BootstrapDynamic/>
+<Icon />
+ <Events/>
  */}
 
-<ProfileCard avatar="profile.jpg" name="Ali Gel" location="Turkey, Istanbul" shot="3" followers="23432" following="234"/>    </div>
+
+
+      <Shop/>
+    </div>
   );
 };
 export default App;
