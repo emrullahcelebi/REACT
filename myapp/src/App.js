@@ -13,30 +13,35 @@ import Clock1 from "./components/05-clock1/clock1";
 import Greetings from "./components/06-props-1/greetings";
 import Products from "./components/07-props-2/products";
 import Clock2 from "./components/08-clock2/clock2";
+import Gallery from "./components/09-image/gallery";
+
+import Image from "./components/09-image/image";
+import ProfileCard from "./components/10-profile-card/profile-card";
 
 const App = () => {
   return (
     <div>
-     {/*  <HelloWorld />
-      <Jsx1 />
-      <Jsx2 /> 
-      <Jsx3 />
-      <Jsx4 />
-       <Jsx5 />
-        <Jsx6/>
-         <Style1/>
-         <Style2/>
-          <Style3/>
-          <Style4/> 
-          <Clock1/>
-          <Greetings/>
-          <Products/>*/}
-      
-          
+      {/*         
+        <HelloWorld/>
+        <Jsx1/>
+        <Jsx2/>
+        <Jsx3/>
+        <Jsx4/>
+        <Jsx5/>
+        <Jsx6 />
+        <Style1/>
+        <Style2/>
+        <Style3/>
+        <Style4/>
+        <Clock1/>
+        <Greetings/>
+        <Products/>
+        <Clock2 textColor="#56ff33" bgColor="#0012C3"/>
+        <Gallery/>
+         <Image/>  
+ */}
 
-<Clock2 textColor="#0012C" bgColor="#110C12"/>
-     
-    </div>
-  )
+<ProfileCard avatar="profile.jpg" name="Ali Gel" location="Turkey, Istanbul" shot="3" followers="23432" following="234"/>    </div>
+  );
 };
 export default App;
