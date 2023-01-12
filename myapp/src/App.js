@@ -26,7 +26,15 @@ import Shop from "./components/14-products/shop";
 import State from "./components/15-usestate/state";
 import Stateless from "./components/15-usestate/stateless";
 import Counter from "./components/16-counter/counter";
+
 import Birthday from "./components/17-birthday/birthday";
+import UseEffect1 from "./components/18-useeffect/useeffect1";
+import UseEffect2 from "./components/18-useeffect/useeffect2";
+import Clock3 from "./components/19-clock3/clock3";
+import CountryFilter from "./components/20-country-filter/country-filter";
+import Odev3 from "./components/replit-odevler/odev-3/replit-odev3";
+
+
 
 const App = () => {
   return (
@@ -59,9 +67,16 @@ const App = () => {
   <Stateless/>
   <State/>
   <Counter/>
- */}
 
-<Birthday/>
+  <Odev3/>
+   <Birthday/>
+   <UseEffect1/>
+   <Clock3/>
+   <UseEffect2/>
+ */}
+ 
+
+<CountryFilter/>
 
 
      
@@ -69,3 +84,5 @@ const App = () => {
   );
 };
 export default App;
+
+
