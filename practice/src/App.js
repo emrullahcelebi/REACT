@@ -5,22 +5,16 @@ import Tablo from "./components/component4/tablo";
 import Ulkeler from "./components/component5/ulkeler";
 
 function App() {
-  return(
-<>
-
-
-  {/*   <Dersler/>
+  return (
+    <>
+      {/*   <Dersler/>
         <Practice2/>
           <Practice3/>
+          <Ulkeler/>
   <Tablo/>
   */}
-
-<Ulkeler/>
-  </>
-
+    </>
   );
-
-  
 }
 
 export default App;
