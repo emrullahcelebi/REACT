@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import data from "./data"
 import List from './list';
-import "./list.css"
+//import "./list.css"
 
 const Listele = () => {
 
