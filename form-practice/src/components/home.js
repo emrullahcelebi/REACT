@@ -1,0 +1,47 @@
+import axios from 'axios'
+import React, { useEffect, useState } from 'react'
+import { Card, Container } from 'react-bootstrap'
+import Menu from './menu'
+
+const Home = () => {
+    const [posts, setPosts] = useState([])
+
+    useEffect(() => {
+      loaderData();
+    }, [])
+    
+    const loaderData = async() => { 
+        try {
+            const resp = await axios.get("https://jsonplaceholder.typicode.com/posts")
+            setPosts(resp.data)
+        } catch (err) {
+            console.log(err)
+        }
+        
+        
+        
+     }
+
+
+  return (
+    <Container fluid>
+<Menu/>
+    <div className="d-flex flex-wrap mt-5 gap-5">
+{
+    posts.map((post)=>(
+    <Card style={{ width: '18rem' }}>
+    <Card.Body key={post.id}>
+      <Card.Title>{post.id}</Card.Title>
+      <Card.Title>{post.title}</Card.Title>
+      <Card.Text>{post.body}</Card.Text>
+    </Card.Body>
+  </Card>
+  ))
+}
+    </div>
+
+    </Container>
+  )
+}
+
+export default Home
